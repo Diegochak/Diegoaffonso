@@ -69,14 +69,14 @@ header nav ul li:last-child {
 /* section cards */
 
 .s-card-featured{
-    background-color: var(--gray-color-100);
+    background-color:rgb(64, 64, 67);
     padding-top: 10.4rem;
     padding-bottom: 12rem;
     }
 
 .s-card-featured .container .main-area{
     border-bottom: rgba(0, 255, 76, 0.874);
-    padding-bottom: 12.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .s-card-featured .container .tittle{
@@ -115,7 +115,7 @@ header nav ul li:last-child {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 6.4rem;
+    padding-top: 0,5rem;
     text-align: center;
     }
 
@@ -140,4 +140,16 @@ header nav ul li:last-child {
 .s-card-featured .all-cards{
     color: aqua;
     }
-
+/* section footer */
+.footer{
+background-color: rgba(0, 0, 0, 0.667);
+padding: 10px
+}
+.foot{
+    padding: 3rem;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 25rem;
+}
